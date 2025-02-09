@@ -1,0 +1,21 @@
+
+
+#nav{
+    border: 2px solid black;
+    height: 30px;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li{
+    list-style-type : none;
+}
+
+a{
+    text-decoration: none;
+}
