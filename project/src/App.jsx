@@ -12,6 +12,7 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Orders from './pages/Orders/Orders';
 import Profile from './pages/Profile/Profile';
+import Menupage from './pages/MenuPage/Menupage';
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/placeorder" element={<PlaceOrder/>} />
             <Route path="/about" element={<About />} />
-            <Route path="/menu" element={<div>Menu Page</div>} />
+            <Route path="/menu" element={<Menupage/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/orders" element={<Orders/>} />
             <Route path="/profile" element={<Profile/>} />

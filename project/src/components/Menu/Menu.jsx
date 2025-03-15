@@ -4,9 +4,6 @@ import { StoreContext } from "../../Context/StoreContext";
 
 function Menu({dishes}) {
 
-  // const abc = Filter.dishes
-
-  
   const { addToCart, currency } = useContext(StoreContext);
   return (
     <div className='dishes-container'>
