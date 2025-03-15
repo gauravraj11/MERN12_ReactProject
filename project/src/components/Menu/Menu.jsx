@@ -3,6 +3,10 @@ import './Menu.css'
 import { StoreContext } from "../../Context/StoreContext";
 
 function Menu({dishes}) {
+
+  // const abc = Filter.dishes
+
+  
   const { addToCart, currency } = useContext(StoreContext);
   return (
     <div className='dishes-container'>
@@ -12,7 +16,7 @@ function Menu({dishes}) {
                     <img src={dish.image} alt={dish.name} className="dish-image" />
                     <div className="dish-body">
                       <div className="dish-price">{currency} {dish.price}</div>
-                      <h3 className="dish-title">{dish.name}</h3>
+                      <h3 className="dish-title">{dish.title}</h3>
                       <button className="add-to-cart-button" onClick={() => addToCart(dish.id)}> Add to Cart </button>
                     </div>
                   </div>

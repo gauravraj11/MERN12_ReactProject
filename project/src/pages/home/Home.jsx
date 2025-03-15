@@ -8,7 +8,9 @@ function Home() {
   return (
     <div>
       <Header />
+
       <Menu dishes={food_list}/>
+      
       <Footer />
     </div>
   )
